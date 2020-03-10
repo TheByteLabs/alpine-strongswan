@@ -3,7 +3,7 @@ jobs:
   live:
     docker:
       - image: circleci/buildpack-deps:stretch
-    working_directory: ~/
+    working_directory: ~/app
     steps:
       - checkout
       - setup_remote_docker
